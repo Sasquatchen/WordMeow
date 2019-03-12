@@ -1,4 +1,4 @@
-import tkinter
+
 from playsound import playsound
 import urllib.request, urllib.parse, urllib.error
 import json
@@ -17,7 +17,7 @@ def start():
          'settle.mp3', 'temple.mp3', 'battle.mp3', 'mumble.mp3')
 
     i = 0
-    print("Talen's spelling Game")
+    print("WordMeow")
     print("See if you can spell all the words correctly")
     print('Type r to repeat word')
 
